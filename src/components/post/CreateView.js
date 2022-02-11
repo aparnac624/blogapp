@@ -1,4 +1,4 @@
-import { useState } from 'react';
+//import { useState } from 'react';
 import { Box, makeStyles, FormControl, InputBase, Button, TextareaAutosize } from '@material-ui/core';
 import { AddCircle } from '@material-ui/icons';
 
@@ -55,7 +55,7 @@ const CreateView = () => {
                 <AddCircle fontSize="large" color="action"/>
 
                 <InputBase 
-                     onChange={(e) => handleChange(e)}
+                     
                      placeholder='title' 
                      className={classes.textField}
                      
